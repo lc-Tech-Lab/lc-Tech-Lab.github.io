@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url('font/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('font/Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('font/Montserrat-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('font/Montserrat-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Global Styles */
+body {
+  background-color: #121212;
+  color: #c5c5c5;
+  font-family: "Montserrat";  /* Funktioniert nur für Windows 10 ??? */
+  margin: 100px; /* Add margin to create space around the content */
+  margin-top: 20px;
+  letter-spacing: 0.8px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #fe970c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff771c;
+}
+
+h1, h2, h3, h4 {
+  color: #3498db;
+}
+
+#empty {
+  margin: 0;
+}
+
+/* Header Styles */
+#header {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Content Styles */
+#content {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+#footer {
+  font-size: 10px;
+  color: gray;
+  position: relative;
+  top: 80px;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #444;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+figcaption {
+  display: none;
+}
